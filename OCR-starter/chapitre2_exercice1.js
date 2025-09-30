@@ -15,23 +15,42 @@
 */
 
 // Initialisez la variable a à 2
+let a = 2;
 
 // Décrémentez a de 1
+a--;
+console.log(a);
 
 // Incrémentez a de 1
+a++;
+console.log(a);
 
 // Initialisez la variable b à 8
+let b = 8;
 
 // Incrémentez b de 2
+b += 2;
+console.log(b);
 
 // Déclarez la constante c et calculez sa valeur
+const c = a+(b*b);
+console.log(c);
 
 // Déclarez la constante d et calculez sa valeur
+const d = a*b+b;
+console.log(d);
 
 // Déclarez la constante e et calculez sa valeur
+const e = a*(b+b);
+console.log(e);
 
 // Déclarez la constante f et calculez sa valeur
+const f = a*b/a;
+console.log(f);
 
 // Déclarez la constante g et calculez sa valeur
+const g = b/a*a;
+console.log(g);
 
 // Affichez les valeurs des 7 variables dans la console
+console.log(`voici les 7 valeurs résultante a: ${a}, b: ${b}, c: ${c}, d: ${d}, e: ${e}, f: ${f}, g: ${g}`);
