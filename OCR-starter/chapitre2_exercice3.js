@@ -4,7 +4,7 @@ let nombre2 = 10;
 console.log(`Avant la permutation, nombre1: ${nombre1}, nombre2: ${nombre2}`);
 
 // Solution classique utilisant une variable temporaire
-var temporaire = nombre1;
+const temporaire = nombre1;
 nombre1 = nombre2;
 nombre2 = temporaire
 console.log(`permutation avec variable temporaire, nombre1: ${nombre1}, nombre2: ${nombre2}`);
