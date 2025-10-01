@@ -25,7 +25,7 @@ console.log(multiplication);
 const division = 6 / 3;
 console.log(division);
 
-// Modulo
+// Modulo le reste de la division peu savoir si un nombre est pair 6%2 === 0
 const modulo = 6 % 3;
 console.log(modulo);
 
