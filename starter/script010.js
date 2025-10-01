@@ -25,7 +25,15 @@ console.log(`${now += 2}, ${now * 2}, ${now / 10}`);
 // Opérateurs logiques
 
 // 4. … (Veuillez préciser votre question ou vos actions ici)
+console.log(ageMark > ageJohn);
+console.log(ageMark >= ageJohn);
+console.log(ageMark < ageJohn);
+console.log(ageMark <= ageJohn);
+console.log(ageMark === ageJohn);
+console.log(ageMark !== ageJohn);
 
+console.log(ageMark > 18 && ageMark < 21);
+console.log(ageMark > 18 || ageMark < 21);
 
 // Opérateur typeof
 console.log(typeof now);

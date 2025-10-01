@@ -18,3 +18,5 @@ console.log(`permutation sans variable temporaire, nombre1: ${nombre1}, nombre2:
 /*
 // Échange de nombre1 et nombre2 sans variable temporaire
 */
+[nombre1,nombre2]=[nombre2,nombre1];
+console.log(`permutation sans variable temporaire, nombre1: ${nombre1}, nombre2: ${nombre2}`);
